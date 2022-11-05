@@ -53,22 +53,22 @@ class _MainPageState extends State<MainPage> {
       BottomNavigationBarItem(
         label: 'Home',
         icon: Icon(Icons.home, color: whiteColor),
-        backgroundColor: primaryColor1.withOpacity(.9),
+        backgroundColor: primaryColor1,
       ),
       BottomNavigationBarItem(
         label: 'Favorites',
         icon: Icon(Icons.favorite, color: whiteColor),
-        backgroundColor: primaryColor1.withOpacity(.9),
+        backgroundColor: primaryColor1,
       ),
       BottomNavigationBarItem(
         label: 'Profile',
         icon: Icon(Icons.person, color: whiteColor),
-        backgroundColor: primaryColor1.withOpacity(.9),
+        backgroundColor: primaryColor1,
       ),
       BottomNavigationBarItem(
         label: 'Settings',
         icon: Icon(Icons.settings, color: whiteColor),
-        backgroundColor: primaryColor1.withOpacity(.9),
+        backgroundColor: primaryColor1,
       ),
     ];
   }
